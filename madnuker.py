@@ -97,9 +97,9 @@ async def banall(ctx, banmessage: str=None):
         if member != ctx.author and member != ctx.guild.me:
             try:
                 await ctx.guild.ban(member, reason=banmessage)
-                print(f"{member.name}のbanに成功しました")
+                print(f"Succeeded in banning the {member.name}")
             except discord.Forbidden:
-                print(f"{member.name}のbanに失敗しました：権限不足")
+                print(f"{member.name} ban failed: insufficient authority")
 
 @bot.command()
 @commands.check(is_allowed_user)
@@ -108,9 +108,9 @@ async def kickall(ctx, kickmessage: str=None):
         if member != ctx.author and member != ctx.guild.me:
             try:
                 await ctx.guild.kick(member, reason=kickmessage)
-                print(f"{member.name}のkickに成功しました")
+                print(f"Succeeded in kicking {member.name}")
             except discord.Forbidden:
-                print(f"{member.name}のkickに失敗しました：権限不足")
+                print(f"{member.name} kick failed: insufficient authority")
 
 @bot.command()
 @commands.check(is_allowed_user)
@@ -139,7 +139,7 @@ async def adminr(ctx):
         await member.add_roles(admin_role)
 
     # Send a confirmation message
-    await ctx.send(f"全員に {admin_role.name} ロールが付与されました。")
+    await ctx.send(f"Everyone has been given the Admin {admin_role.name} role.")
 
 
 bot.run(config["token"])
