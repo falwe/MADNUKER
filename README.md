@@ -1,3 +1,6 @@
+<a href="https://github.com/wervlad/customer-churn-prediction/blob/main/LICENSE">
+    <img alt="license" src="https://img.shields.io/github/license/wervlad/customer-churn-prediction.svg?color=blue">
+</a>
 
 # MADNUKER
 
