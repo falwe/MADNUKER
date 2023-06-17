@@ -1,5 +1,9 @@
-<a href="https://github.com/wervlad/customer-churn-prediction/blob/main/LICENSE">
+<a href="https://github.com/Shoebi111/MADNUKER/LICENSE">
     <img alt="license" src="https://img.shields.io/github/license/wervlad/customer-churn-prediction.svg?color=blue">
+</a>
+
+<a href="https://github.com/Shoebi111/MADNUKER">
+    <img alt="social" src="https://img.shields.io/github/watchers/Shoebi111/MADNUKER">
 </a>
 
 # MADNUKER
