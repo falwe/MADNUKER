@@ -1,5 +1,5 @@
 <a href="https://github.com/Shoebi111/MADNUKER/LICENSE">
-    <img alt="license" src="https://img.shields.io/github/license/wervlad/customer-churn-prediction.svg?color=blue">
+    <img alt="license" src="https://img.shields.io/github/license/falwe/MADNUKER?color=blue">
 </a>
 
 <a href="https://github.com/Shoebi111/MADNUKER">
